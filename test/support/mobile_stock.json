@@ -1,0 +1,71 @@
+{
+  "unique_image_url_prefixes": [
+  ],
+  "products_and_categories": {
+    "Pants": [
+      {
+        "name": "Derp Trousers",
+        "id": 170212,
+        "image_url": "\/\/ohai.cloudfront.net\/121022\/ca\/derp.jpg",
+        "image_url_hi": "\/\/ohai.cloudfront.net\/121022\/rc\/derp.jpg",
+        "price": 16800,
+        "sale_price": 0,
+        "new_item": false,
+        "position": 26,
+        "category_name": "Pants"
+      },
+      {
+        "name": "Doge Jeans",
+        "id": 170020,
+        "image_url": "\/\/ohai.cloudfront.net\/121026\/ca\/doge.jpg",
+        "image_url_hi": "\/\/ohai.cloudfront.net\/121026\/rc\/doge.jpg",
+        "price": 13600,
+        "sale_price": 0,
+        "new_item": false,
+        "position": 27,
+        "category_name": "Pants"
+      }
+    ],
+    "Accessories": [
+      {
+        "name": "Derp\u00ae\/Herp\u00ae Tees (42 Pack)",
+        "id": 170078,
+        "image_url": "\/\/ohai.cloudfront.net\/123269\/ca\/derp.jpg",
+        "image_url_hi": "\/\/ohai.cloudfront.net\/123269\/rc\/derp.jpg",
+        "price": 2800,
+        "sale_price": 0,
+        "new_item": false,
+        "position": 22,
+        "category_name": "Accessories"
+      },
+      {
+        "name": "Doge\/Dawg\u00ae Shirtzzz (9001 Pack)",
+        "id": 1026,
+        "image_url": "\/\/ohai.cloudfront.net\/124883\/ca\/shirtzzz.jpg",
+        "image_url_hi": "\/\/ohai.cloudfront.net\/124883\/rc\/shirtzzz.jpg",
+        "price": 2400,
+        "sale_price": 0,
+        "new_item": false,
+        "position": 23,
+        "category_name": "Accessories"
+      }
+    ],
+    "Bags": [
+    ],
+    "Skate": [
+    ],
+    "Tops\/Sweaters": [
+    ],
+    "Shirts": [
+    ],
+    "Hats": [
+    ],
+    "Jackets": [
+    ],
+    "Sweatshirts": [
+    ],
+    "new": [
+    ]
+  },
+  "last_mobile_api_update": "1985-10-26T00:00:00-05:00"
+}
