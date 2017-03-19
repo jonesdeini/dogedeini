@@ -48,3 +48,8 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# my stuff
+main.rb
+original.py
+test/support/actual_json_responses
