@@ -22,4 +22,12 @@ class ItemIdFinderTest < MiniTest::Unit::TestCase
 
     assert_equal(results.size, 2)
   end
+
+  def test_protect_myself_from_being_dumb_with_downcase
+    subject = ItemFinder.run!(mobile_stock_fixture, "DoGe")
+
+    results = subject.map{|x| x['id'] }.uniq
+
+    assert_equal(results.size, 2)
+  end
 end
