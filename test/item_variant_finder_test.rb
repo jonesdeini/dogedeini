@@ -1,16 +1,33 @@
 require_relative "helper"
+require_relative "../lib/dogedeini/item_variant_finder"
 
 class ItemVariantFinderTest < MiniTest::Unit::TestCase
-  def mobile_stock_fixture
+  def item_fixture
     File.open(File.expand_path("test/support/item.json"), "r").read
   end
 
-  def test_derp
-    subject = ItemVariantFinder.run!(mobile_stock_fixture, "black", "large")
+  def test_when_colorway_and_size_are_unique_large
+    subject = ItemVariantFinder.run!(item_fixture, "camo", "large")
 
     results = subject.map{|x| x['id'] }.uniq
 
     assert_equal(results.size, 1)
     assert_equal(results.first, 1026)
+  end
+
+  def test_when_colorway_and_size_are_unique_xlarge
+    subject = ItemVariantFinder.run!(item_fixture, "camo", "xlarge")
+
+    results = subject.map{|x| x['id'] }.uniq
+
+    assert_equal(results.size, 1)
+    assert_equal(results.first, 6201)
+  end
+
+  def test_when_colorway_is_not_unique
+    error = assert_raises(RuntimeError) do
+      ItemVariantFinder.run!(item_fixture, "derp", "large")
+    end
+    assert_equal(error.message, "found 3 items for colorway: derp")
   end
 end

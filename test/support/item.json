@@ -1,0 +1,126 @@
+{
+  "styles": [
+    {
+      "id": 15307,
+      "name": "Derp Camo",
+      "currency": "USD",
+      "description": null,
+      "image_url": "\/\/ohai.cloudfront.net\/121277\/sm\/derp-camo.jpg",
+      "image_url_hi": "\/\/ohai.cloudfront.net\/121277\/rs\/derp-camo.jpg",
+      "swatch_url": "\/\/ohai.cloudfront.net\/121277\/ca\/derp-camo.jpg",
+      "swatch_url_hi": "\/\/ohai.cloudfront.net\/121277\/rc\/derp-camo.jpg",
+      "mobile_zoomed_url": "\/\/ohai.cloudfront.net\/121277\/mo\/derp-camo.jpg",
+      "mobile_zoomed_url_hi": "\/\/ohai.cloudfront.net\/121277\/rm\/derp-camo.jpg",
+      "bigger_zoomed_url": "\/\/ohai.cloudfront.net\/121277\/zo\/derp-camo.jpg",
+      "sizes": [
+        {
+          "name": "Small",
+          "id": 40364,
+          "stock_level": 0
+        },
+        {
+          "name": "Medium",
+          "id": 40365,
+          "stock_level": 0
+        },
+        {
+          "name": "Large",
+          "id": 1026,
+          "stock_level": 0
+        },
+        {
+          "name": "XLarge",
+          "id": 6201,
+          "stock_level": 0
+        }
+      ],
+      "additional": [
+      ]
+    },
+    {
+      "id": 15308,
+      "name": "Derp Black",
+      "currency": "USD",
+      "description": null,
+      "image_url": "\/\/ohai.cloudfront.net\/121276\/sm\/derp-black.jpg",
+      "image_url_hi": "\/\/ohai.cloudfront.net\/121276\/rs\/derp-black.jpg",
+      "swatch_url": "\/\/ohai.cloudfront.net\/121276\/ca\/derp-black.jpg",
+      "swatch_url_hi": "\/\/ohai.cloudfront.net\/121276\/rc\/derp-black.jpg",
+      "mobile_zoomed_url": "\/\/ohai.cloudfront.net\/121276\/mo\/derp-black.jpg",
+      "mobile_zoomed_url_hi": "\/\/ohai.cloudfront.net\/121276\/rm\/derp-black.jpg",
+      "bigger_zoomed_url": "\/\/ohai.cloudfront.net\/121276\/zo\/derp-black.jpg",
+      "sizes": [
+        {
+          "name": "Small",
+          "id": 40368,
+          "stock_level": 0
+        },
+        {
+          "name": "Medium",
+          "id": 40369,
+          "stock_level": 0
+        },
+        {
+          "name": "Large",
+          "id": 40370,
+          "stock_level": 0
+        },
+        {
+          "name": "XLarge",
+          "id": 40371,
+          "stock_level": 0
+        }
+      ],
+      "additional": [
+      ]
+    },
+    {
+      "id": 15309,
+      "name": "Derp Grey",
+      "currency": "USD",
+      "description": null,
+      "image_url": "\/\/ohai.cloudfront.net\/121278\/sm\/derp-gray.jpg",
+      "image_url_hi": "\/\/ohai.cloudfront.net\/121278\/rs\/derp-gray.jpg",
+      "swatch_url": "\/\/ohai.cloudfront.net\/121278\/ca\/derp-gray.jpg",
+      "swatch_url_hi": "\/\/ohai.cloudfront.net\/121278\/rc\/derp-gray.jpg",
+      "mobile_zoomed_url": "\/\/ohai.cloudfront.net\/121278\/mo\/derp-gray.jpg",
+      "mobile_zoomed_url_hi": "\/\/ohai.cloudfront.net\/121278\/rm\/derp-gray.jpg",
+      "bigger_zoomed_url": "\/\/ohai.cloudfront.net\/121278\/zo\/derp-gray.jpg",
+      "sizes": [
+        {
+          "name": "Small",
+          "id": 40372,
+          "stock_level": 0
+        },
+        {
+          "name": "Medium",
+          "id": 40373,
+          "stock_level": 0
+        },
+        {
+          "name": "Large",
+          "id": 40374,
+          "stock_level": 0
+        },
+        {
+          "name": "XLarge",
+          "id": 40375,
+          "stock_level": 0
+        }
+      ],
+      "additional": [
+      ]
+    }
+  ],
+  "description": "Keep me searchin' for a heart of gold",
+  "can_add_styles": false,
+  "can_buy_multiple": false,
+  "cod_blocked": false,
+  "canada_blocked": false,
+  "purchasable_qty": 1,
+  "new_item": true,
+  "apparel": true,
+  "handling": 0,
+  "no_free_shipping": false,
+  "can_buy_multiple_with_limit": 0
+}
