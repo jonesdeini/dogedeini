@@ -1,7 +1,7 @@
 require_relative "helper"
 require_relative "../lib/dogedeini/url_get"
 
-class UrlGetTest < MiniTest::Unit::TestCase
+class UrlGetTest < MiniTest::Test
   def test_sends_get_request_for_given_url
     subject = "doge.biz"
     stub_request(:any, subject)

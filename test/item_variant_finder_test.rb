@@ -1,7 +1,7 @@
 require_relative "helper"
 require_relative "../lib/dogedeini/item_variant_finder"
 
-class ItemVariantFinderTest < MiniTest::Unit::TestCase
+class ItemVariantFinderTest < MiniTest::Test
   def item_fixture
     File.open(File.expand_path("test/support/item.json"), "r").read
   end

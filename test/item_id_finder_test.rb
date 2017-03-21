@@ -1,7 +1,7 @@
 require_relative "helper"
 require_relative "../lib/dogedeini/item_id_finder"
 
-class ItemIdFinderTest < MiniTest::Unit::TestCase
+class ItemIdFinderTest < MiniTest::Test
   def mobile_stock_fixture
     File.open(File.expand_path("test/support/mobile_stock.json"), "r").read
   end
