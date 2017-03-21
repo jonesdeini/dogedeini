@@ -33,7 +33,7 @@ class AddToCartTest < MiniTest::Test
     AddToCart.run!("1026", "1985")
 
     assert_requested(:post, url, times: 1) do |request|
-      assert_includes request.body, params_stringified
+      assert_equal request.body, params_stringified
     end
   end
 end
