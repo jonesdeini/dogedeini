@@ -7,6 +7,7 @@ GEM
       safe_yaml (~> 1.0.0)
     domain_name (0.5.20170223)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.2.0)
     hashdiff (0.3.2)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -33,6 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv (~> 2.2.0)!
   minitest (~> 5.10.1)!
   rest-client (~> 2.0.1)!
   webmock (~> 2.3.2)!

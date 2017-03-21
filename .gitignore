@@ -53,3 +53,4 @@ build-iPhoneSimulator/
 main.rb
 original.py
 test/support/actual_json_responses
+.env.production

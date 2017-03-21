@@ -10,3 +10,4 @@ script:
   - bundle exec ruby -Itest test/item_id_finder_test.rb
   - bundle exec ruby -Itest test/item_variant_finder_test.rb
   - bundle exec ruby -Itest test/url_get_test.rb
+  - bundle exec ruby -Itest test/url_post_test.rb
