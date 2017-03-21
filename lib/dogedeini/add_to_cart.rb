@@ -4,14 +4,16 @@ Dotenv.load('.env.production', '.env.development')
 
 class AddToCart
   def self.run!(item_id, variant_id)
-    url = url(item_id)
+    url = add_to_cart_url(item_id)
     headers = headers
     payload = payload(variant_id)
     UrlPost.run!(url, payload, headers)
   end
-  def self.url(item_id)
+
+  def self.add_to_cart_url(item_id)
     "#{ENV['ADD_TO_CART_BASE_URL']}/#{item_id}/add.json"
   end
+
   def self.headers
     {
       'Host' => ENV['HOST'],
@@ -27,6 +29,7 @@ class AddToCart
       'Referer' => ENV['REFERER']
     }
   end
+
   def self.payload(variant_id)
     {
       'Size' => variant_id,
