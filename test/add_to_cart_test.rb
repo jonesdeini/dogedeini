@@ -27,15 +27,13 @@ class AddToCartTest < MiniTest::Test
 
   def test_sends_post_request_with_proper_params
     url = "http://www.doge.biz/derp/1026/add.json"
-    subject = AddToCart.payload("1985")
+    params_stringified = "Size=1985&Qty=1"
     stub_request(:any, url)
 
     AddToCart.run!("1026", "1985")
 
     assert_requested(:post, url, times: 1) do |request|
-      subject.keys do |key|
-        assert_includes request.body[key], subject[key]
-      end
+      assert_includes request.body, params_stringified
     end
   end
 end
