@@ -1,6 +1,6 @@
 require 'json'
 
-class ItemFinder
+class ItemIdFinder
   def self.run!(inventory_response, keyword)
     inventory_json = JSON.parse(inventory_response)['products_and_categories'] #['new']
     inventory_json = inventory_json.values.flatten

@@ -7,7 +7,7 @@ class ItemIdFinderTest < MiniTest::Test
   end
 
   def test_find_id_when_given_unique_keyword
-    subject = ItemFinder.run!(mobile_stock_fixture, "9001")
+    subject = ItemIdFinder.run!(mobile_stock_fixture, "9001")
 
     results = subject.map{|x| x['id'] }.uniq
 
@@ -16,7 +16,7 @@ class ItemIdFinderTest < MiniTest::Test
   end
 
   def test_find_2_ids_when_given_nonunique_keyword
-    subject = ItemFinder.run!(mobile_stock_fixture, "doge")
+    subject = ItemIdFinder.run!(mobile_stock_fixture, "doge")
 
     results = subject.map{|x| x['id'] }.uniq
 
@@ -24,7 +24,7 @@ class ItemIdFinderTest < MiniTest::Test
   end
 
   def test_protect_myself_from_being_dumb_with_downcase
-    subject = ItemFinder.run!(mobile_stock_fixture, "DoGe")
+    subject = ItemIdFinder.run!(mobile_stock_fixture, "DoGe")
 
     results = subject.map{|x| x['id'] }.uniq
 
