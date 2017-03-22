@@ -1,5 +1,4 @@
-require_relative "helper"
-require_relative "../lib/dogedeini/url_post"
+require "helper"
 
 module UrlPostTest
   class RunTest < MiniTest::Test

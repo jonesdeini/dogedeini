@@ -1,2 +1,6 @@
-require "item_finder"
-require "item_variant_finder"
+require 'dogedeini/add_to_cart'
+require 'dogedeini/checkout'
+require 'dogedeini/item_id_finder'
+require 'dogedeini/item_variant_finder'
+require 'dogedeini/url_get'
+require 'dogedeini/url_post'

@@ -1,5 +1,4 @@
-require_relative "helper"
-require_relative "../lib/dogedeini/item_id_finder"
+require "helper"
 
 class ItemIdFinderTest < MiniTest::Test
   def mobile_stock_fixture

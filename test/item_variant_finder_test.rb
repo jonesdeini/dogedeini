@@ -1,5 +1,4 @@
-require_relative "helper"
-require_relative "../lib/dogedeini/item_variant_finder"
+require "helper"
 
 class ItemVariantFinderTest < MiniTest::Test
   def item_fixture

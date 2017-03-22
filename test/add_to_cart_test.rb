@@ -1,5 +1,4 @@
-require_relative "helper"
-require_relative "../lib/dogedeini/add_to_cart"
+require "helper"
 
 class AddToCartTest < MiniTest::Test
   def test_sends_post_request_for_given_url
